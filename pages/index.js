@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import FirstSection from '../components/FirstSection/FirstSection'
+import FourSection from '../components/FourSection/FourSection'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
 import SecoundSection from '../components/SecoundSection/SecoundSection'
@@ -34,7 +35,7 @@ export default function Home() {
                     </div>
                 </div>
                 <SecoundSection />
-                <div className="relative h-[900px] flex p-4">
+                <div className="relative lg:h-[900px] flex p-4">
                     <ThirdSection />
                     <div className="absolute top-0 left-0 z-0">
                         <div className="relative h-[425px] w-[160px] lg:w-[320px] lg:h-[850px] z-0">
@@ -47,6 +48,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <FourSection />
             </main>
         </div>
     )
