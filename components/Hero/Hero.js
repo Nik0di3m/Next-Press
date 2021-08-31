@@ -13,7 +13,7 @@ const Hero = () => {
                     />
                 </div>
             </div>
-            <div className="lg:w-1/2 z-10 flex p-2 lg:h-auto mt-24 lg:mt-0 lg:justify-center lg:pl-40 flex-col space-y-3 lg:whitespace-nowrap overflow-visible">
+            <div className="lg:w-1/2 z-10 flex p-2 lg:h-auto mt-24 lg:mt-0 lg:justify-center lg:pl-40 flex-col space-y-3 2xl:whitespace-nowrap overflow-visible">
                 <h1 className="text-4xl lg:text-7xl">Next level Wordpress</h1>
                 <h2 className="text-xl lg:text-4xl font-light">
                     Next.js speed with Wordpress CMS

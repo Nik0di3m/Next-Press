@@ -1,10 +1,13 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import FirstSection from '../components/FirstSection/FirstSection'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
+import SecoundSection from '../components/SecoundSection/SecoundSection'
 
 export default function Home() {
     return (
-        <div className="bg-[#0E1116] h-screen text-white">
+        <div className="bg-[#0E1116] text-white">
             <Head>
                 <title>NextPress</title>
                 <meta
@@ -15,6 +18,22 @@ export default function Home() {
             </Head>
             <Header />
             <Hero />
+            <main>
+                <div className="relative py-12">
+                    <FirstSection />
+                    <div className="absolute top-0 right-0 hidden lg:block">
+                        <div className="relative w-[500px] h-[690px]">
+                            <Image
+                                src="/first_decor.svg"
+                                alt=""
+                                layout="fill"
+                                objectFit="contain"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <SecoundSection />
+            </main>
         </div>
     )
 }
