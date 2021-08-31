@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import FirstSection from '../components/FirstSection/FirstSection'
+import FiveSection from '../components/FiveSection/FiveSection'
 import FourSection from '../components/FourSection/FourSection'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
@@ -49,6 +50,20 @@ export default function Home() {
                     </div>
                 </div>
                 <FourSection />
+                <div className="relative">
+                    <FiveSection />
+                    <div className="absolute w-full top-0 z-0">
+                        <div className="relative h-[637px] w-[full] z-0">
+                            <Image
+                                src="/wave.svg"
+                                alt=""
+                                layout="fill"
+                                objectFit="contain"
+                                className="z-0"
+                            />
+                        </div>
+                    </div>
+                </div>
             </main>
         </div>
     )
