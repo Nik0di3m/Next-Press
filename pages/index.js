@@ -6,6 +6,7 @@ import FourSection from '../components/FourSection/FourSection'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
 import SecoundSection from '../components/SecoundSection/SecoundSection'
+import SixSection from '../components/SixSection/SixSection'
 import ThirdSection from '../components/ThirdSection/ThirdSection'
 
 export default function Home() {
@@ -64,6 +65,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <SixSection />
             </main>
         </div>
     )
